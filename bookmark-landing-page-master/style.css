@@ -68,14 +68,14 @@ nav ul {
   background-color: white;
   cursor: pointer;
   letter-spacing: 0.2rem;
-  padding: 1.5rem;
+  padding: 1.3rem 1.5rem 1.3rem 1.5rem;
   margin: 1.3rem;
 }
 
 .hero-a:hover{
   background:var(--soft-red);
   color: white;
-  border-bottom: 5px solid #E6E9F8;
+  box-shadow: rgb(235 237 250) 0px 5px 5px;
 }
 
 .hero-container{
@@ -115,7 +115,7 @@ nav ul {
 .hero-button1,
 .hero-button{
   width: 15rem;
-  height: 4.5rem;
+  height: 4.7rem;
   margin-right: 1rem;
   color: #212327;
   font-weight: bold;
@@ -123,6 +123,7 @@ nav ul {
   border-radius: 0.5rem;
   border-bottom: 5px solid #E6E9F8;
   border: none;
+  box-shadow: rgb(235 237 250) 0px 5px 5px;
 }
 
 .hero-button1{
@@ -192,7 +193,7 @@ nav ul {
 
 .bookmark-img{
   position: relative;
-  margin-left: 16rem;
+  margin-left: 14rem;
 }
 
 .bookmark-container{
@@ -219,12 +220,13 @@ nav ul {
 .question-button,
 .bookmark-button{
   width: 11.4rem;
-  height: 4.5rem;
+  height: 4.7rem;
   font-weight: bold;
   border-radius: 0.5rem;
   border: none;
   color: white;
   background-color: var(--soft-blue);
+  box-shadow: rgb(235 237 250) 0px 5px 5px;
 }
 
 .pricing-container{
@@ -262,16 +264,19 @@ nav ul {
   align-items: center;
   height: 35rem;
   margin: 2rem;
-  box-shadow: 2px black;
+  border-radius: 2rem;
+  box-shadow: 0px 16px 15px #EBEDFA;
 }
 
 .pircing-button{
-  width: 22rem;
+  width: 23rem;
   height: 4.5rem;
   font-weight: bold;
+  margin-bottom: 1rem;
   border-radius: 0.5rem;
   border: none;
   color: white;
+  box-shadow: rgb(235 237 250) 0px 5px 5px;
   background-color: var(--soft-blue);
 }
 
@@ -289,13 +294,12 @@ nav ul {
 }
 
 .percing__option-firefox{
-  margin-top: 5rem;
+  margin-top: 5.5rem;
 }
 
 .percing__option-opera{
-  margin-top: 8rem;
+  margin-top: 9rem;
 }
-
 
 .question-container{
   display: flex;
@@ -404,21 +408,39 @@ nav ul {
 .footer-container{
   display: flex;
   align-items: center;
-  height: 8rem;
+  height: 9rem;
   width: 100%;
   background-color: var(--very-dark-blue);
-  color: #212327;
+}
+
+footer p{
+  font-size: 1.8rem;
+  color: white;
+  margin-left: 1rem;
 }
 
 .footer-ul{
-display: flex;
-justify-content: space-between;
-}
-footer p{
-font-size: 1rem;
-color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-a{
-color: white;
+  margin: 0px 2rem;
+  letter-spacing: 0.2rem;
+  color: white;
+}
+
+.footer .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 16rem;
+  margin-right: 7rem;
+}
+
+.footer figure {
+  margin-left: 50rem;
+}
+
+.footer figure img {
+  margin: 0rem 2rem;
 }
