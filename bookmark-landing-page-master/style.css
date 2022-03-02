@@ -89,7 +89,7 @@ nav ul {
 }
 
 .hero-text{
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
   padding-right: 5rem;
@@ -145,9 +145,9 @@ nav ul {
 }
 
 .features-text{
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   text-align: center;
   color: var(--grayish-blue);
 }
@@ -157,7 +157,7 @@ nav ul {
   display: flex;
   margin: 6rem 37rem;
   border-bottom: 1px solid var(--grayish-blue);
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
 }
 
 .features ul {
@@ -174,7 +174,7 @@ nav ul {
 }
 
 .features-a:hover{
-  padding-bottom: 35px ;
+  padding-bottom: 25px ;
   border-bottom: 5px solid var(--soft-red);
 }
 
@@ -210,7 +210,7 @@ nav ul {
 }
 
 .bookmark-text{
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
   text-align: start;
@@ -243,7 +243,7 @@ nav ul {
 }
 
 .pricing-text{
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
   text-align: center;
@@ -283,7 +283,7 @@ nav ul {
 .percing__option-chrome h3,
 .percing__option-firefox h3,
 .percing__option-opera h3{
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 .percing__option-chrome p,
@@ -315,7 +315,7 @@ nav ul {
 }
 
 .question-text{
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
   text-align: center;
@@ -339,7 +339,7 @@ nav ul {
   font-size: 1.8rem;
   font-weight: bold;
   color: #242A45;
-  width: 60rem;
+  width: 52rem;
   margin: 2rem 0rem;
 }
 
